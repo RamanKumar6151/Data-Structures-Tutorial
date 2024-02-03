@@ -1,11 +1,16 @@
 #include<iostream>
-#include<stdlib.h>
-
 using namespace std;
-
 int main(){
-    system("CLS");
-	cout<<"hello word\n";
-    cout<<sizeof(char32_t);
-	return 0;
+    char ch;
+    cin>>ch;
+    if((ch>='0')&&(ch<='9')){
+        cout<<"num";
+    }
+    else if((ch>='A')&&(ch<='Z')){
+        cout<<"Uppercase";
+    }
+    else if((ch>='a')&&(ch<='z')){
+        cout<<"lowercase";
+    }
+
 }

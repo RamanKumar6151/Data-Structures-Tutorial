@@ -9,30 +9,22 @@ int main(){
     //   **
     //  ***
     // ****
-    int r=4;
-    int i=r-1;
-    int j=0;
-    while(i>0){
-        while(j<i){
-            cout<<"_";
-            j++;
+    int n=6;
+    int row =1;
+    while(row<=n){
+        // space print karlo
+        int space=n-row;
+        while(space>0){
+            cout<<" ";
+            space--;
         }
-        j=0;
-        i--;
-        if(i==0){
-            break;
+        // star print karlo
+        int col=1;
+        while(col<=row){
+            cout<<"*";
+            col++;
         }
-        cout<<endl;
-    }
-    i=1;
-    j=0;
-    while(i<=r){
-        while(j<i){
-            cout<<"*"<<" ";
-            j++;
-        }
-        j=0;
-        i++;
+        row++;
         cout<<endl;
     }
     return 0;

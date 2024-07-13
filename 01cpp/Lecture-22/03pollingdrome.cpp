@@ -28,11 +28,11 @@ bool isAlnum(char ch){
 
 // converting UPPERCASE character to lowercase
 char toLower(char ch){
-    if(ch>='a'&&ch<='z'){
-        return ch;
+    if(ch>='A'&&ch<='Z'){
+        return ch-'A'+'a';
     }
+    return ch;
     // if character is UPPERCASE
-    return ch-'A'+'a';
 }
 
 bool isPalindrome(string s)

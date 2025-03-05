@@ -4,5 +4,9 @@
             "filePath": "02arrays\\01Questions\\02reverseArray.cpp",
             "group": "Default"
         }
-    ]
+    ],
+    "files.associations": {
+        "*.rmd": "markdown",
+        "iostream": "cpp"
+    }
 }

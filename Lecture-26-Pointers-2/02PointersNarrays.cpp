@@ -1,35 +1,10 @@
-<<<<<<< HEAD
-#include<bits/stdc++.h>
-=======
 #include<iostream>
 #include<stdlib.h>
->>>>>>> 4d277152728bfaa89365c3580f45e008f35b89f6
 using namespace std;
 
 int main(){
     system("CLS");
     
-<<<<<<< HEAD
-    int temp[10];
-    // creating a pointer
-    int *ptr=&temp[0];
-    cout<<"sizeof(temp)="<<sizeof(temp)<<endl;
-    cout<<"sizeof(*ptr)="<<sizeof(*ptr)<<endl;
-    cout<<"sizeof(&ptr)="<<sizeof(&ptr)<<endl;  // 8 on 64 bit architecture, 4 on 32 bit architecture
-    cout<<"\n";
-
-    int a[20]={1,2,3,5};
-    cout<<"&a[0]="<<&a[0]<<endl;
-    cout<<"&a="<<&a<<endl;
-    cout<<"a="<<a<<endl;
-
-    cout<<"\n";
-
-    int *p=&a[0];
-    cout<<"p="<<p<<endl;
-    cout<<"*p="<<*p<<endl;
-    cout<<"&p="<<&p<<endl;
-=======
     // creating an array
     int a[10];
 
@@ -45,7 +20,6 @@ int main(){
     // but, the following code will work because it is not manipulating the mapping, but simply increasing the addres value
     p=p+1;  // so now p is storing the address  of a[1], that's why it worked
     cout<<p<<endl;
->>>>>>> 4d277152728bfaa89365c3580f45e008f35b89f6
 
     return 0;
 }
